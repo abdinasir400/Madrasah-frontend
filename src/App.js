@@ -4,10 +4,14 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Dashboard from './routes/Dashboard';
 import Login from './routes/Login';
 import Register from './routes/Register';
+import Navbar from './components/Navbar';
+
+
 
 function App() {
   return (
     <>
+    <Navbar/>
     <Router>
       <div className = 'container'>
         <Routes>
